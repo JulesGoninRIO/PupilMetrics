@@ -1,7 +1,7 @@
 # Help
 
 __Data format__:  
-folder containing only recordings of the same machine and same protocol (can lead to text display “format error” or “shape error”)  
+folder containing only recordings of the same machine and same protocol (can lead to text display “format error” or “shape error”) 
 To load faster (from ~20s to 1-2s), copy the folder ‘foxexe’ from T/studies on your computer, and go to ‘forexe/dist/app/app.exe’ to create a new shortcut  
 -----------
 __How to use the interface__:  
