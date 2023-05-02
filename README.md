@@ -28,12 +28,12 @@ __Settings__ are saved inside the interface, if data have been processed with di
 Settings are advanced and are useful to run faster while developing the method  
 __Delete threshold__: acceleration threshold to detect and delete points (default: medium)  
 Changes the amount of artefact detected by 1st step, misses can be compensated by 2nd step but low level may delete reel part of recording
-__Drop detection__: minimal size to detect drops and propose artefacts (default: medium)
-Changes the amount of artefacts detected by 2nd step, high level may miss small artefacts and low level may detect too much artefacts and lead to many user rejections
-__Fit precision__: maximum time/iteration to fit recordings (default: high)
-Low level makes the process faster, especially for worst recordings
-The precision of the fit is not the most relevant to detect drops
-__Derivative smoothing__: smoothing level of Savitzky-Golay filter (default: medium)
-Uses 8 to 4 polynomial order interpolation for 19 to 27 window points
-__See fit__: not plotting fit makes improve a little plot time (default: yes)
-__See zoom__: not plotting individual flash makes improve a lot plot time (default: yes)
+__Drop detection__: minimal size to detect drops and propose artefacts (default: medium)  
+Changes the amount of artefacts detected by 2nd step, high level may miss small artefacts and low level may detect too much artefacts and lead to many user rejections  
+__Fit precision__: maximum time/iteration to fit recordings (default: high)  
+Low level makes the process faster, especially for worst recordings  
+The precision of the fit is not the most relevant to detect drops  
+__Derivative smoothing__: smoothing level of Savitzky-Golay filter (default: medium)  
+Uses 8 to 4 polynomial order interpolation for 19 to 27 window points  
+__See fit__: not plotting fit makes improve a little plot time (default: yes)  
+__See zoom__: not plotting individual flash makes improve a lot plot time (default: yes)  
