@@ -1,8 +1,21 @@
-# Help
+# Run with python
 
-__Data format__:  
-folder containing only recordings of the same machine and same protocol (can lead to text display “format error” or “shape error”). 
-To load faster (from ~20s to 1-2s), copy the folder ‘foxexe’ from T/studies on your computer,and go to ‘forexe/dist/app/app.exe’ to create a new shortcut
+Run app.py
+
+----------------------
+
+# Create .exe PupilMetrics
+
+Create the .exe with python libraries by the command ‘pyinstaller --noconsole your/path/app.py’ (10-20 min)  
+Copy the content of files folder into ‘forexe/dist/app/’  
+The .exe PupilMetrics is at ‘forexe/dist/app/app.exe’ (you can create a new shortcut)  
+
+----------------------
+
+# PupilMetrics help
+
+__Data input format__:  
+Folder containing only recordings of the same machine and same protocol (can lead to text display “format error” or “shape error”). 
 
 -----------
 __How to use the interface__:  
