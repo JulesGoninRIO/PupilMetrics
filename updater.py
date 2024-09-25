@@ -1,5 +1,7 @@
 import numpy as np
 from scipy.signal import savgol_filter
+import warnings
+warnings.filterwarnings("ignore", category=RuntimeWarning)
 import plot # pupillometry code
 
 class Updater:
@@ -9,6 +11,11 @@ class Updater:
     def __init__(self,data,running): 
         self.data = data
         self.settings = data.settings
+        if self.settings[-1]: # data not computed for basic removal is set to empty 
+            data.drop_free = data.artefact_free[:]
+            data.drops = [[] for x in data.drop_free]
+            if not self.settings[-2]:
+                data.fitted = data.artefact_free[:]
         for M in [data.raw,data.artefact_free,data.drop_free,data.fitted,data.flash_times]:
             M.insert(0,np.nanmean(M,axis=0))
         (n,m) = np.shape(data.flash_times)
@@ -67,10 +74,9 @@ class Updater:
                 six_rec = 100-np.mean(signal[flash+7*f:flash71]) # % between 7-7.1s
             else: # if another flash or recording end before 6s
                 six_rec = np.nan
-            if not self.data.is_strong[k]:
-                end_flash = flash+3*f
-            MCA = 100-np.min(signal[flash:end_flash]) # % at the peak / latency
-            latency = (np.argmin(signal[flash:end_flash])+2.42)/f
+            end_zone = flash+round(2.025*f) # area of peak research limited to 2s
+            MCA = 100-np.min(signal[flash:end_zone]) # % at the peak / RT
+            RT = (np.argmin(signal[flash:end_zone])+2.42)/f
             self.data.grad[i] = np.gradient(self.data.drop_free[i])*f
             try:
                 x = self.settings[3] # smooth derivative
@@ -78,13 +84,13 @@ class Updater:
             except:
                 deriv_smooth = np.nan*np.zeros(len(self.data.drop_free[i]))
             self.data.deriv_smooth[i] = deriv_smooth
-            dAMP = np.max(deriv_smooth[flash+int(0.5*f):flash+int(2.25*f)]) # maximum of derivative / latency
+            dAMP = np.max(deriv_smooth[flash+int(0.5*f):flash+int(2.25*f)]) # maximum of derivative / RT
             dLAT = (np.argmax(deriv_smooth[flash+int(0.5*f):flash+int(2.25*f)])+int(0.5*f))/f 
             dAUC = 0
             for j in range(flash+int(0.25*f),flash+int(2.25*f)):
                 if deriv_smooth[j]>0 and deriv_smooth[j+1]>0:
                     dAUC += deriv_smooth[j] # integral of absolute value of derivative between 0.25-2.25s 
-            self.data.measures[i,k,:] = [base_diam,MCA,latency,six_rec,dAMP,dLAT,dAUC]
+            self.data.measures[i,k,:] = [base_diam,MCA,RT,six_rec,dAMP,dLAT,dAUC]
         else:
             self.data.measures[i,k,:] = 7*[np.nan]
                 

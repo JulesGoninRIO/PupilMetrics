@@ -81,8 +81,9 @@ class Plotter:
         fit,flashes,measures_i = data.fitted[i],data.flash_times[i],data.measures[i]
         (a,b) = data.signal_range[i][k] 
         time = [j/data.f for j in range(b-a)]
-        ax1.plot(time,data.raw[i][a:b],label='raw') 
-        ax1.plot(time,data.artefact_free[i][a:b],label='intermediate')
+        ax1.plot(time,data.raw[i][a:b],label='raw')
+        if not data.settings[-1]:
+            ax1.plot(time,data.artefact_free[i][a:b],label='intermediate')
         ax1.plot(time,data.drop_free[i][a:b],label='final',color="g")
         end = 4*data.f*(1+k)-1 # end of derivative plot, 4s zoom for flash
         ax1_d.plot(time[:end],data.grad[i][a:b][:end],label='derivative')
@@ -104,7 +105,7 @@ class Plotter:
         ax1.legend(),ax1_d.legend()
         fig.savefig(self.path+save_name+'.png') 
         fig_d.savefig(self.path+save_name+'_d.png') 
-        if data.settings[-1]: # less plot time if user do not want to see fit
+        if data.settings[-2]: # less plot time if user do not want to see fit
             ax1.plot(time,fit[a:b],label='fitted',color="m")
             ax1.legend()
             fig.savefig(self.path+save_name+'_f.png')

@@ -51,8 +51,10 @@ class RunnerWindow(tk.Toplevel):
                 if not messagebox.askyesno('Warning',warn+data.errors[0]+ques):
                     raise Exception(data.errors[1])
             data.no_artefact()
-            data.fit_signal(self.process_state)
-            data.no_drop()
+            if not app.settings[-1] or app.settings[-2]:
+                data.fit_signal(self.process_state)
+            if not app.settings[-1]:
+                data.no_drop()
             os.mkdir(app.folder_path+'figures')
             app.update = updater.Updater(data,self.process_state)
             app.save()

@@ -38,29 +38,28 @@ class Excel(): # write and save data in .xlsx
     def write_data(self,name,k): # flash k sheet
         sheet = self.workbook.add_worksheet(name)
         sheet.write(0,0,'time',self.bold)
-        n0 = self.n+3
+        n0 = self.n+2
         for i in range(len(self.data.drop_free)):
-            sheet.write(0,i+1,self.data.names[i],self.bold)
-            sheet.write(0,i+n0,self.data.names[i]+' (fit)',self.bold)
+            for ii,signal_name in enumerate(['',' (raw)',' (fit)']):
+                sheet.write(0,i+1+ii*n0,self.data.names[i]+signal_name,self.bold)
             a,b = self.data.signal_range[i,k]
-            pup = self.data.drop_free[i][a:b]
-            fit = self.data.fitted[i][a:b]
-            for j in range(len(pup)):
+            signals = [self.data.drop_free[i][a:b],self.data.raw[i][a:b],self.data.fitted[i][a:b]]
+            for j in range(len(signals[0])):
                 if not i:
                     sheet.write(j+1,0,j/self.data.f,self.default)
                 if k>-1 and j==self.data.flash_times[i][k]-a:
                     font = self.fonts[2*k+1]
                     sheet_d = self.workbook.get_worksheet_by_name('Data')
-                    self.write(sheet_d,self.data.flash_times[i][k]+1,i+1,pup[j],font)
-                    self.write(sheet_d,self.data.flash_times[i][k]+1,i+n0,fit[j],font)
+                    for ii,signal in enumerate(signals):
+                        self.write(sheet_d,self.data.flash_times[i][k]+1,i+1+ii*n0,signal[j],font)
                 else:
                     font = self.default
-                self.write(sheet,j+1,i+1,pup[j],font)
-                self.write(sheet,j+1,i+n0,fit[j],font)
+                for ii,signal in enumerate(signals):
+                    self.write(sheet,j+1,i+1+ii*n0,signal[j],font)
         
     def write_measures(self,paras,k): # measures sheet
         [font_bold,font] = self.fonts[2*k:2*(k+1)]
-        measures = ['baseline','MCA','latency','6s constriction','dAMP','dLAT','dAUC']
+        measures = ['baseline','MCA','RT','6s constriction','dAMP','dLAT','dAUC']
         j0 = k*(self.l+2)
         paras.write(j0,0,self.data.color_names[k],font_bold)
         for j in range(len(measures)):

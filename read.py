@@ -1,4 +1,4 @@
-from pandas import read_table,read_csv
+from pandas import read_table,read_excel
 from matplotlib.pyplot import get_cmap
 import numpy as np
 
@@ -81,13 +81,8 @@ class Reader:
     def read_Neuroptics(self,data,file): # load Neuroptics mouse Corinne data
         data.f = 31
         data.names += [file.name]
-        df = read_csv(file,sep="\s+|\t",header=None,names=[i for i in range(1000)],engine='python')
-        signal = []
-        i = 30
-        while df.iloc[i,2] != None:
-            signal += [float(df.iloc[i,2])]
-            i += 1
-        data.raw += [signal]
+        df = read_excel(file).iloc[:, 1]
+        data.raw += [df[:df[df.isna()].index[0]]]
         data.flash_times += [[16]]
         data.color_codes += [get_cmap('Greys')(0.25)]
         data.is_strong += [False]

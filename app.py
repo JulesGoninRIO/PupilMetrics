@@ -19,7 +19,7 @@ class App(tk.Tk): # main window
         self.title('Pupillometry')
         self.app_path = os.getcwd()+'/files/' 
         self.image_path = self.app_path+"logo.jpg"
-        image = ImageTk.PhotoImage(Image.open(self.image_path).resize((1080,300),Image.ANTIALIAS))
+        image = ImageTk.PhotoImage(Image.open(self.image_path).resize((1080,300),Image.BILINEAR))
         self.label = tk.Label(self,image=image)
         self.label.pack() 
         
@@ -102,7 +102,7 @@ class App(tk.Tk): # main window
     def plots(self): # see recordings
         self.see_deriv.set(0)
         self.place_zoom_button(self.change_recording) 
-        if self.update.settings[-1]: # if fit curves are plotted
+        if self.update.settings[-2]: # if fit curves are plotted
             self.see_fit_button = tk.Checkbutton(self,text='See fit',variable=self.see_fit,bg='magenta',command=self.change_plot)
             self.see_fit_button.place(x=120,y=25)
             
@@ -150,7 +150,7 @@ class App(tk.Tk): # main window
     
     def change_image(self,path,shape): # change label image
        self.image_path = path 
-       image = Image.open(path).resize((1080,shape),Image.ANTIALIAS)
+       image = Image.open(path).resize((1080,shape),Image.BILINEAR)
        image = ImageTk.PhotoImage(image)
        self.label.configure(image=image)
        self.label.image = image
@@ -195,7 +195,7 @@ class App(tk.Tk): # main window
     
     def place_zoom_button(self,command): # place group button and call command
         self.clean_all()
-        if self.update.settings[-2]:
+        if self.update.settings[-3]:
             self.zoom_button = tk.Checkbutton(self,text='Zoom',variable=self.zoom,bg='light blue',command=lambda:self.place_scales(command))
             self.zoom_button.place(x=20,y=25)
         self.place_scales(command)
@@ -216,7 +216,7 @@ class App(tk.Tk): # main window
                 return
             self.vertical_scale = tk.Scale(self,variable=self.current_table,from_=0,to=m,showvalue=False,length=100,bg='white',command=self.change_plot)
             self.vertical_scale.place(x=100,y=420) # scroll table vertical scale
-        elif self.update.settings[-2]: # individual zoom flash
+        elif self.update.settings[-3]: # individual zoom flash
             self.vertical_scale = tk.Scale(self,variable=self.current_flash,from_=1,to=self.update.m,length=150,bg='white',command=command)
             self.vertical_scale.place(x=80,y=420) 
             self.vertical_scale_text = tk.Text(self,width=6,height=2,relief=tk.FLAT)

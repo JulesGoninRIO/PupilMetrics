@@ -2,6 +2,8 @@ import numpy as np
 from scipy.signal import find_peaks
 from scipy.optimize import fmin
 from pathlib import Path
+import warnings
+warnings.filterwarnings("ignore")
 import read # pupillometry code
 
 class PupilData:
@@ -129,7 +131,7 @@ class PupilData:
                     fitted_signal[:flash] = base_diam
                 end_diam = np.mean(signal[imax-2*tf:imax]) # base diameter around next flash
                 min_diam = np.min(signal[flash:flash+3*self.f]) # diameter of the peak
-                t_min = np.argmin(signal[flash:flash+3*self.f])+flash # latency index of the peak
+                t_min = np.argmin(signal[flash:flash+3*self.f])+flash # RT index of the peak
                 def f_signal(exp,t1,t2): # return fit with parameter exp between t1-t2
                     drop = 1+0.2*exp[0] # exponent drop variation formula
                     rec = 1.5**(-exp[1]) # exponent recovery variation formula

@@ -1,0 +1,440 @@
+Traceback (most recent call last):
+  File "T:\Studies\_FINISHED\Pupillometry\code\pupillometry\PupilMetrics\run.py", line 46, in process
+    raise Exception(data.errors[1])
+Exception: c57bl6-4.11.17-1mois-DAOG-F1-0.6b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-F1-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-F1-1.2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-F1-2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-F1-2rXX.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-F1-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-M1-0.6b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-M1-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-M1-1.2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-M1-2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-M1-2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-M1-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-M2-0.6b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-M2-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-M2-1.2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-M2-2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-M2-2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+c57bl6-4.11.17-1mois-DAOG-M2-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+
+
+Traceback (most recent call last):
+  File "T:\Studies\_FINISHED\Pupillometry\code\pupillometry\PupilMetrics\run.py", line 46, in process
+    raise Exception(data.errors[1])
+Exception: 20170815_091905_c57-1mois-f1-1.2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_092532_c57-1mois-f1-0.6b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_092626_c57-1mois-f1-2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_092713_c57-1mois-f1-1.2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_092833_c57-1mois-f1-4.5r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_093547_c57-1mois-f3-1.2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_093652_c57-1mois-f3-0.6b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_093802_c57-1mois-f3-2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_093838_c57-1mois-f3-1.2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_094008_c57-1mois-f3-4.5r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_094206_c57-1mois-m1-1.2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_094358_c57-1mois-m1-0.6b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_094445_c57-1mois-m1-2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_094533_c57-1mois-m1-1.2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_094658_c57-1mois-m1-4.5r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_094733_c57-1mois-m1-2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_094957_c57-1mois-f4-1.2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_095040_c57-1mois-f4-0.6b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_095134_c57-1mois-f4-2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_095211_c57-1mois-f4-1.2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_095326_c57-1mois-f4-4.5r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_095402_c57-1mois-f4-2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_095608_c57-1mois-F5-1.2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_095722_c57-1mois-F5-0.6b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_095811_c57-1mois-F5-2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_095909_c57-1mois-F5-1.2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_100024_c57-1mois-F5-4.5r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_100100_c57-1mois-F5-2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_100310_c57-1mois-M2-1.2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_100351_c57-1mois-M2-0.6b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_100455_c57-1mois-M2-2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_100604_c57-1mois-M2-1.2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_100719_c57-1mois-M2-4.5r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_100757_c57-1mois-M2-2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_101017_c57-1mois-M3-1.2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_101131_c57-1mois-M3-0.6b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_101223_c57-1mois-M3-2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_101311_c57-1mois-M3-1.2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_101410_c57-1mois-M3-4.5r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_101517_c57-1mois-M3-2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_101907_c57-1mois-F6-1.2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_102030_c57-1mois-F6-0.6b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_102309_c57-1mois-F6-2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_102344_c57-1mois-F6-1.2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_102452_c57-1mois-F6-4.5r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_102536_c57-1mois-F6-2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_102811_c57-1mois-M4-1.2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_103019_c57-1mois-M4-0.6b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_103147_c57-1mois-M4-2r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_103251_c57-1mois-M4-1.2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_103345_c57-1mois-M4-4.5r.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+20170815_103433_c57-1mois-M4-2b.dat -- Error tokenizing data. C error: Expected 1 fields in line 20, saw 2
+
+
+
+Traceback (most recent call last):
+  File "T:\Studies\_FINISHED\Pupillometry\code\pupillometry\PupilMetrics\run.py", line 46, in process
+    raise Exception(data.errors[1])
+Exception: C57BL6-28.09.17-DA-1mois-F1-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M1-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M1-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M1-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-4.5r.xlsx -- (slice(None, None, None), 1)
+
+
+Traceback (most recent call last):
+  File "T:\Studies\_FINISHED\Pupillometry\code\pupillometry\PupilMetrics\run.py", line 46, in process
+    raise Exception(data.errors[1])
+Exception: C57BL6-28.09.17-DA-1mois-F1-0.6b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F1-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F1-2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F1-2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F1-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F2-0.6b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F2-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F2-1.2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F2-2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F2-2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F2-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F3-0.6b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F3-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F3-1.2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F3-2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F3-2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F3-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M1-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M1-1.2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M1-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M2-0.6b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M2-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M2-1.2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M2-2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M2-2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M2-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M3-0.6b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M3-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M3-1.2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M3-2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M3-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M4-0.6b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M4-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M4-1.2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M4-2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M4-2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M4-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+
+
+Traceback (most recent call last):
+  File "T:\Studies\_FINISHED\Pupillometry\code\pupillometry\PupilMetrics\run.py", line 46, in process
+    raise Exception(data.errors[1])
+Exception: C57BL6-28.09.17-DA-1mois-F1-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M1-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M1-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M1-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-4.5r.xlsx -- (slice(None, None, None), 1)
+
+
+Traceback (most recent call last):
+  File "T:\Studies\_FINISHED\Pupillometry\code\pupillometry\PupilMetrics\run.py", line 46, in process
+    raise Exception(data.errors[1])
+Exception: C57BL6-28.09.17-DA-1mois-F1-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M1-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M1-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M1-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-4.5r.xlsx -- (slice(None, None, None), 1)
+
+
+Traceback (most recent call last):
+  File "T:\Studies\_FINISHED\Pupillometry\code\pupillometry\PupilMetrics\run.py", line 46, in process
+    raise Exception(data.errors[1])
+Exception: C57BL6-28.09.17-DA-1mois-F1-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M1-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M1-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M1-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-4.5r.xlsx -- (slice(None, None, None), 1)
+
+
+Traceback (most recent call last):
+  File "T:\Studies\_FINISHED\Pupillometry\code\pupillometry\PupilMetrics\run.py", line 46, in process
+    raise Exception(data.errors[1])
+Exception: C57BL6-28.09.17-DA-1mois-F1-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F1-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F2-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-F3-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M1-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M1-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M1-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M2-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M3-4.5r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-0.6b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-1.2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-1.2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-2b.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-2r.xlsx -- (slice(None, None, None), 1)
+C57BL6-28.09.17-DA-1mois-M4-4.5r.xlsx -- (slice(None, None, None), 1)
+
+
+Traceback (most recent call last):
+  File "T:\Studies\_FINISHED\Pupillometry\code\pupillometry\PupilMetrics\run.py", line 59, in process
+    app.update = updater.Updater(data,self.process_state)
+  File "T:\Studies\_FINISHED\Pupillometry\code\pupillometry\PupilMetrics\updater.py", line 20, in __init__
+    M.insert(0,np.nanmean(M,axis=0))
+  File "<__array_function__ internals>", line 180, in nanmean
+  File "C:\Users\AmiotV\AppData\Roaming\Python\Python39\site-packages\numpy\lib\nanfunctions.py", line 1033, in nanmean
+    arr, mask = _replace_nan(a, 0)
+  File "C:\Users\AmiotV\AppData\Roaming\Python\Python39\site-packages\numpy\lib\nanfunctions.py", line 100, in _replace_nan
+    mask = np.not_equal(a, a, dtype=bool)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py", line 1527, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+
+Traceback (most recent call last):
+  File "T:\Studies\_FINISHED\Pupillometry\code\pupillometry\PupilMetrics\run.py", line 46, in process
+    raise Exception(data.errors[1])
+Exception: C57BL6-28.09.17-DA-1mois-F1-0.6b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F1-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F1-2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F1-2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F1-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F2-0.6b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F2-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F2-1.2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F2-2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F2-2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F2-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F3-0.6b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F3-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F3-1.2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F3-2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F3-2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-F3-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M1-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M1-1.2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M1-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M2-0.6b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M2-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M2-1.2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M2-2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M2-2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M2-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M3-0.6b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M3-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M3-1.2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M3-2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M3-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M4-0.6b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M4-1.2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M4-1.2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M4-2b.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M4-2r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+C57BL6-28.09.17-DA-1mois-M4-4.5r.xlsx -- 'utf-8' codec can't decode byte 0xbf in position 14: invalid start byte
+
+
